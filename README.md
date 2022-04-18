@@ -30,5 +30,5 @@ Annotaton cái class này là @ResponseStatus
 
 ### CÁC LỖI THƯỜNG GẶP 
 - Thiếu các annotation
-- Phần "@{value1}" trong file html thì cái value1 bằng với cái value trong controller  
+- Phần "@{value1}" trong file html (thường nằm ở button) thì cái value1 bằng với cái value trong controller (chỗ @RequestMapping), mỗi cái value phải riêng biệt ko được trùng tên   
 
