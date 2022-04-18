@@ -35,3 +35,6 @@ Annotaton cái class này là @ResponseStatus
 <a th:href="@{/addEmployee}" class="btn btn-success">Add Employee</a>
 <a href="/" class="btn btn-success">User</a>   
 
+### PROJECT LỚN
+https://openplanning.net/10683/tao-ung-dung-web-ban-hang-voi-spring-boot-hibernate
+
