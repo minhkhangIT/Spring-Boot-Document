@@ -30,5 +30,8 @@ Annotaton cái class này là @ResponseStatus
 
 ### CÁC LỖI THƯỜNG GẶP 
 - Thiếu các annotation
-- Phần "@{value1}" trong file html (thường nằm ở button) thì cái value1 bằng với cái value trong controller (chỗ @RequestMapping), mỗi cái value phải riêng biệt ko được trùng tên   
+- Phần "@{value1}" trong file html (thường nằm ở button) thì cái value1 bằng với cái value trong controller (chỗ @RequestMapping), mỗi cái value phải riêng biệt ko được trùng tên
+- ví dụ 2 cái dưới, cái đầu sẽ gọi ở controller, cái 2 chỉ chuyển hướng trong file (nên làm cái đầu)
+<a th:href="@{/addEmployee}" class="btn btn-success">Add Employee</a>
+<a href="/" class="btn btn-success">User</a>   
 
